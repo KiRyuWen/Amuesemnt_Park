@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+
+
+\author{Wen Yi, Lo. Rui Ping,Yo}
+\title{Project5 Computer Graphics}
+
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{CJKutf8}
+\hypersetup{linktoc=all,hidelinks}
+
+
+
+\begin{document}
+\begin{CJK*}{UTF8}{bsmi}
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Purpose}
+This is Third Project of OpenGL.
+\section{Used Function}
+	\subsection{setLight}
+	set shader's light.
+	generate a frameBuffer for given fbo,vao.
+	\subsection{dropHegihtMap}
+	when mouse left click, it will check the wave type and read pixel information.
+	\subsection{draw}
+	Most functionality is inside draw, draw vertex or using shader.
+\section{User Guide}
+	\subsection{Screen}
+	* Right Mouse = ArcBall (rotates world)\newline
+* ALT-RightMouse = Pan (translate view)\newline
+* double click Right Mouse = reset view\newline
+* Mousewheel = Zoom In / Zoom Out\newline
+	\subsection{Selection}
+	You can use left click on different wave type, Except for interactive wave, it is still not working!!!!.
+	\subsection{對於控制點的操作}
+	使用滑鼠左鍵選擇控制點後，按住拖曳。\newline
+	使用滑鼠左鍵+ctrl+控制點，控制上下。\newline
+	使用旁邊r+x,r-x,r+z,r-z選轉控制點。\newline
+	\subsection{控制煙火種類}
+	使用滑鼠左鍵拖曳介於0到3，去進行選擇。
+	0為不顯示,1為散花,2為同心圓,3為HELLO!
+	\subsection{Camera}
+	利用右邊的Type去選擇目前視角
+\section{Reference}
+	my HackMD \url{ https://hackmd.io/PS8l_jPxRM2cGCA9bkuQHw}
+\end{CJK*}
+\end{document}
